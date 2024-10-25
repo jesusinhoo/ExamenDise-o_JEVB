@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenDiseño_JEVB.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Calculadora" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Ingresa un numero:" FontSize="20" x:Name="Numero1"></Label>
+        <Entry x:Name="Numeroo1" WidthRequest="300"  HorizontalOptions="Start"></Entry>
+        <Label Text="Ingresa otro numero:" FontSize="20" x:Name="Numero2"></Label>
+        <Entry x:Name="Numeroo2" WidthRequest="300"  HorizontalOptions="Start"></Entry>
+        <Label Text="Resultado:" FontSize="20" x:Name="Resultado"></Label>
+        <Entry x:Name="Resultadoo" WidthRequest="300"  HorizontalOptions="Start"></Entry>
+        
+
+        <Button Margin="10,0,100,20"  FontSize="30" Text="Sumar" Clicked="Sumar"></Button>
+        <Button Margin="10,0,100,20"  FontSize="30" Text="Restar" Clicked="Restar"></Button>
+        <Button Margin="10,0,100,20"  FontSize="30" Text="Dividir" Clicked="Dividir"></Button>
+        <Button Margin="10,0,100,20"  FontSize="30" Text="multiplicar" Clicked="Multiplicar"></Button>
+
+
+    </StackLayout>
+
+</ContentPage>
